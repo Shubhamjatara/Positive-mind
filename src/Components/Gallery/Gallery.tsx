@@ -82,7 +82,7 @@ export default function Gallery() {
       </div>
       <div className="w-full">
         <figure>
-          <img src={SKY} className="w-full h-[300px]" alt="" />
+          <img src={SKY} className="w-full object-center object-cover  h-[300px]" alt="" />
         </figure>
       </div>
     </>

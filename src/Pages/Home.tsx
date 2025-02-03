@@ -1,3 +1,7 @@
+import Blogs from "../Components/Blogs/Blogs";
+import ContactForm from "../Components/ContactFrom/ContactForm";
+import Features from "../Components/Features/Features";
+import Footer from "../Components/Footer/Footer";
 import Gallery from "../Components/Gallery/Gallery";
 import HearFromOurProducts from "../Components/HearFromOurProducts/HearFromOurProducts";
 import MakingLeaningAdventure from "../Components/MakingLeaningAdventure/MakingLeaningAdventure";
@@ -16,6 +20,10 @@ export default function Home() {
       <OurResult />
       <HearFromOurProducts />
       <Gallery />
+      <Blogs/>
+      <Features/>
+      <ContactForm/>
+      <Footer/>
     </Layout>
   );
 }

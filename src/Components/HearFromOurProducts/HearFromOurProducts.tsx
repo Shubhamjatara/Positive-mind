@@ -1,5 +1,5 @@
 import React from "react";
-
+import Ball from "../../Assests/ball.png";
 export default function HearFromOurProducts() {
   return (
     <>
@@ -8,7 +8,7 @@ export default function HearFromOurProducts() {
           hear from our parents!
         </h1>
       </div>
-      <div className="flex flex-col xl:flex-row justify-center p-5 gap-3 ">
+      <div className="flex flex-col xl:flex-row justify-center p-5 gap-16 xl:gap-3">
         <div>
           <figure>
             <img
@@ -19,7 +19,13 @@ export default function HearFromOurProducts() {
           </figure>
         </div>
 
-        <div className="bg-[#36A4DD] text-[3.8vw] rounded-xl text-white h-fit sm:text-[29px] xl:text-[25px]  py-5 px-10 flex items-center xl:h-[411px] xl:w-[722px]  w-full overflow-hidden">
+        <div className="bg-[#36A4DD] text-[3.8vw] rounded-xl text-white h-fit sm:text-[29px] xl:text-[25px]  py-5 px-10 flex items-center xl:h-[411px] xl:w-[722px]  w-full  relative">
+          {/* decorative elements */}
+          <div className="hidden lg:block absolute top-0 right-40 w-20 h-20
+          -translate-y-1/2 translate-x-1/2 z-10
+          ">
+            <img src={Ball} alt="Candy Cane" />
+          </div>
           <p>
             My daughter has been going here for math tutoring since she was 5
             yrs old, she is now 9. She started out with basic math tutoring
